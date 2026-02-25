@@ -1,0 +1,99 @@
+BOSH Inference Model License v1.0
+
+Copyright © 2025 Leon Bass
+
+This repository contains:
+
+-   Pretrained PyTorch model weights (*.pt)
+-   Exported ONNX models (*.onnx)
+-   Supporting code
+
+This licence governs the pretrained model weights and compiled model files only, unless otherwise stated.
+
+------------------------------------------------------------------------
+
+1. Model Weights and ONNX Files
+
+The pretrained PyTorch weights (.pt) and ONNX models (.onnx) in this
+repository are licensed under:
+
+Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International
+(CC BY-NC-SA 4.0)
+
+You may:
+
+-   Share the model files
+-   Adapt, fine tune, or modify them
+-   Redistribute original or modified versions
+
+Under the following conditions:
+
+1.  Attribution
+    You must give appropriate credit to Leon Bass and reference this repository.
+
+2.  NonCommercial
+    You may not use the model files or derivatives for commercial purposes.
+    Commercial use includes, but is not limited to:
+
+    -   Selling the model
+    -   Using the model in a paid product or service
+    -   Providing the model as part of a commercial SaaS platform
+    -   Any use primarily intended for commercial advantage or monetary compensation
+
+3.  ShareAlike
+    If you modify, fine tune, or build upon these model weights, you must distribute your contributions under the same CC BY-NC-SA 4.0 licence.
+
+Full licence text:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+------------------------------------------------------------------------
+
+2. Code Components
+
+Portions of the source code in this repository that are derived from or
+based on segmentation_models.pytorch (https://github.com/qubvel-org/segmentation_models.pytorch) are licensed under the MIT License:
+
+The MIT License
+
+Copyright (c) 2019 Pavel Iakubovskii
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the
+“Software”), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+------------------------------------------------------------------------
+
+3. Separation of Licences
+
+-   Model weights and ONNX files → CC BY-NC-SA 4.0
+-   Third party MIT code → MIT
+-   Any original code written by Leon Bass in this repository should
+    clearly state its applicable licence.
+
+These licences apply independently to their respective components.
+
+------------------------------------------------------------------------
+
+4. Disclaimer
+
+The model files and software are provided “as is”, without warranty of
+any kind, express or implied, including but not limited to fitness for a
+particular purpose.
+
+The author shall not be liable for any claim, damages, or other
+liability arising from use of the software or model files.
