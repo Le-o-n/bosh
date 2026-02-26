@@ -1,15 +1,15 @@
-## Model Card for bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.v1.0.0
+## Model Card for bosh.resnet18.axial.smri.t2_se.seg.brain.fp32
 
 ### Short summary
 Lightweight brain tissue segmentation model for 2D T2‑weighted axial TSE head MRI scans. Inputs: 2D axial T2 slices. Outputs: per‑pixel segmentation map of brain tissue regions.
 
 ## Model Details
 
-- **Model name / version:** bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.v1.0.0 
+- **Model name / version:** bosh.resnet18.axial.smri.t2_se.seg.brain.fp32
 - **Developed by:** Leon Bass (https://orcid.org/0009-0009-2158-9612), Warwick Manufacturing Group (WMG), University of Warwick  
 - **Repository:** https://github.com/Le-o-n/bosh  
-- **Backup / archival:** https://doi.org/10.5281/zenodo.18776178  
-- **Demo:** models/bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.*.ipynb in the GitHub repo  
+- **Backup / archival:** https://doi.org/10.5281/zenodo.18776177 
+- **Demo:** models/bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.ipynb in the GitHub repo  
 - **License:** see  
 - **Weights hosted:** GitHub
 
@@ -55,12 +55,6 @@ Residual convolutional U‑Net style architecture with residual encoder → deco
 ### Preprocessing
 - Typical preprocessing used during training: intensity normalization (z‑score) and augmentation pipeline including cropping, rotation, additive noise, and translation. NOTE: inconsistent or compound normalization steps (e.g., z‑score → min‑max → z‑score) cause distribution shift and model failure.
 
-### Training procedure
-- Hardware: NVIDIA GeForce RTX 3060 Ti (8 GB VRAM).
-- Training time: ~1 day.
-- Mixed precision: not specified.
-- Hyperparameters: optimizer, learning rate schedule, batch size, number of epochs — [PLACEHOLDER — insert exact values].
-
 ## Evaluation
 
 ### Architecture & objective
@@ -83,8 +77,9 @@ BibTeX:
   month     = feb,
   year      = {2026},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.18776178},
-  url       = {https://doi.org/10.5281/zenodo.18776178},
+  version   = {vX.X.X},
+  doi       = {10.5281/zenodo.18776177},
+  url       = {https://doi.org/10.5281/zenodo.18776177},
   note      = {ORCID: 0009-0009-2158-9612}
 }
 
