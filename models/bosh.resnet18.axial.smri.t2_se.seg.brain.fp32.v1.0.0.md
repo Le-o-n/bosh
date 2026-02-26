@@ -8,21 +8,19 @@ Lightweight brain tissue segmentation model for 2D T2‑weighted axial TSE head 
 - **Model name / version:** bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.v1.0.0 
 - **Developed by:** Leon Bass (https://orcid.org/0009-0009-2158-9612), Warwick Manufacturing Group (WMG), University of Warwick  
 - **Repository:** https://github.com/Le-o-n/bosh  
-- **Hugging Face:** https://huggingface.co/LeonBass/bosh-resnet18-axial-smri-t2_se-seg-brain-fp32 
-- **Backup / archival:** Zenodo (DOI to be added after GitHub release)  
-- **Demo:** models/bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.v1.0.0.ipynb in the GitHub repo  
+- **Backup / archival:** https://doi.org/10.5281/zenodo.18776178  
+- **Demo:** models/bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.*.ipynb in the GitHub repo  
 - **License:** see  
-- **Weights hosted:** GitHub release and Hugging Face model repo
+- **Weights hosted:** GitHub
 
 ## One-line purpose
 Per‑slice pixelwise segmentation of brain tissue from 2D T2‑weighted axial MRI (TSE) scans.
 
 ## Model Description
-Residual convolutional U‑Net style architecture with residual encoder → decoder blocks. Parameter count: 14.3x10^6 parameters, 54.6 MB weight size on disk. Designed to be lightweight and run on consumer GPUs.
+Residual convolutional U‑Net style architecture with residual encoder → decoder blocks. Parameter count: 14.3x10^6 parameters, 54.6 MB fp32 weight size on disk. Designed to be lightweight and run on consumer GPUs.
 
 ## Model Sources
 - **Repository:** https://github.com/Le-o-n/bosh  
-- **Paper / citable publication:** Working citation (related): Bass L., Goswami A., Mohammad, K. F., Olaizola, I. G., Harrington K., Chalmers A., "The potential of Flavour Perception Ability testing to detect early the presence of Alzheimer’s Disease" 
 
 ## Uses
 
@@ -42,7 +40,7 @@ Residual convolutional U‑Net style architecture with residual encoder → deco
 
 ## How to get started
 - Clone the repo: https://github.com/Le-o-n/bosh  
-- See demo notebook: `models/bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.v1.0.0.ipynb` for example inference code and usage.
+- See demo notebooks: `models/bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.v*.ipynb` for example inference code and usage.
 - Model weights and model card available in the GitHub release and Hugging Face repo; Zenodo DOI will be added to this card after archiving.
 
 ## Training Details
@@ -79,13 +77,15 @@ Residual convolutional U‑Net style architecture with residual encoder → deco
 ```
 BibTeX:
 
-@software{bass2026bosh_model,
-  author  = {Bass, Leon},
-  title   = {Brain Optical Segmentation Helper (BOSH): ResNet18 Axial T2-SE Brain Model},
-  year    = {2026},
-  version = {v1.0.0},
-  doi     = {10.5281/zenodo.XXXXXXXX},
-  url     = {https://doi.org/10.5281/zenodo.XXXXXXXX}
+@software{bass2026bosh,
+  author    = {Bass, Leon},
+  title     = {BOSH: Brain Optical Segmentation Helper},
+  month     = feb,
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.18776178},
+  url       = {https://doi.org/10.5281/zenodo.18776178},
+  note      = {ORCID: 0009-0009-2158-9612}
 }
 
 ```
@@ -94,10 +94,6 @@ BibTeX:
 - Author: Leon Bass (https://orcid.org/0009-0009-2158-9612), WMG, University of Warwick  
 - Contact: open GitHub issues on the repository
 
-## Additional files to include
-- CITATION.cff (recommended)
-- requirements.txt / environment.yml
-- License file with exact non‑commercial research terms
 
 
 
