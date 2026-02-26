@@ -42,8 +42,8 @@ If you use BOSH in your research or tool, please cite it using the following:
   year      = {2026},
   publisher = {Zenodo},
   version   = {vX.X.X},
-  doi       = {10.5281/zenodo.18776178},
-  url       = {https://doi.org/10.5281/zenodo.18776178},
+  doi       = {10.5281/zenodo.18776177},
+  url       = {https://doi.org/10.5281/zenodo.18776177},
   note      = {ORCID: 0009-0009-2158-9612}
 }
 ```
