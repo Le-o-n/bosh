@@ -9,7 +9,7 @@ model = smp.Unet(
 )
 
 state_dict = torch.load(
-    "bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.v1.0.0.pt",
+    "bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.pt",
     map_location="cpu",
     weights_only=True  # PyTorch >= 2.0
 )
