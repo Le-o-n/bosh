@@ -25,7 +25,7 @@ Brain Optical Segmentation Helper (BOSH) is a collection of Open Neural Network 
 
 | Status | Example | Model Name                         | Params (10⁶) | Size (MB) | Axis  | Weighting | Function |
 |------------------------------------|--------------:|-----------:|-------|-----------|--------------------|--------|----------|
-| 🟢  | ![T2 Example](models/bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.v1.0.0.gif) | `bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.v1.0.0.onnx`     | 14.3          | 54.6      | Axial | T2-SE       | Brain segmentation |
+| 🟢  | ![T2 Example](models/bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.gif) | `bosh.resnet18.axial.smri.t2_se.seg.brain.fp32.v1.0.0.onnx`     | 14.3          | 54.6      | Axial | T2-SE       | Brain segmentation |
 
 
 > 🟢 Implemented 🔵 In Development ⚪ Planned
